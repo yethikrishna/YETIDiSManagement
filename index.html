@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YETIDiSManagement - AI for Disaster Management</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+          integrity="sha512-xodOFhfgkX4Xw1g0hB1P+nK8w7K+g/yB+Qf/zV+S/L/S/G/I/J/K/L/M/N/O/P/Q/R/S/T/U/V/W/X/Y/Z"
+          crossorigin=""/>
+</head>
+<body>
+    <header>
+        <h1>YETIDiSManagement</h1>
+        <p>Your FREE and POWERFUL AI for Disaster Management</p>
+    </header>
+
+    <main>
+        <aside class="sidebar">
+            <h2>Disaster Information</h2>
+            <div id="disaster-info">
+                <!-- Disaster details will be loaded here by JavaScript -->
+                <p>Loading disaster data...</p>
+            </div>
+        </aside>
+        
+        <section class="map-container">
+            <div id="map"></div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 YETIDiSManagement. All rights reserved.</p>
+    </footer>
+
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+            integrity="sha512-9p+C9gQ4q5w5r5t7h7h7c7j7k7l7m7n7o7p7q7r7s7t7u7v7w7x7y7z707172737475767778797a7b7c7d7e7f"
+            crossorigin=""></script>
+    <script src="script.js"></script>
+</body>
+</html>
