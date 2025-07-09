@@ -4,4 +4,3 @@ publish = "."
 
 [functions]
 directory = "./functions"
-    ```
